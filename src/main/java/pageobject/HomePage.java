@@ -41,7 +41,8 @@ public class HomePage extends BasePage{
 
     public boolean navigateToSiteDirectory(){
         try{
-            WebElement pageLink = UIElementsManager.getByClass("nav-line-2");
+            String directoryLinkXpath = "//span[text()='Departments']";
+            WebElement pageLink = UIElementsManager.getByXpath(directoryLinkXpath);
             DriverActionManager.click(pageLink);
             return true;
         }catch (Exception e){
