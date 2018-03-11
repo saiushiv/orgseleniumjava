@@ -3,6 +3,9 @@ package pageobject;
 import managers.DriverActionManager;
 import org.openqa.selenium.WebDriver;
 
+/**
+ * This page class holds methods for the Electric Guitar product
+ */
 public class ElectricGuitarPage extends BasePage {
     private WebDriver driver;
 

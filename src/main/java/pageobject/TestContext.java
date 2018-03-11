@@ -3,6 +3,10 @@ package pageobject;
 import managers.WebDriverManager;
 import managers.PageManager;
 
+/**
+ * This is the test context that helps in getting the webpage dynamically
+ * STILL IN DEVELOPMENT
+ */
 public class TestContext {
 
     private WebDriverManager webDriverManager;

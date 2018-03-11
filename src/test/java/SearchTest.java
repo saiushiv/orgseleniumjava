@@ -5,6 +5,9 @@ import pageobject.ElectricGuitarPage;
 import pageobject.HomePage;
 import pageobject.SearchPage;
 
+/**
+ * This Class contains tests related to search functionality
+ */
 public class SearchTest extends BaseTest{
 
     @Test

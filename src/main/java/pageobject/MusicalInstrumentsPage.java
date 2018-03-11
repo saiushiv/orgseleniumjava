@@ -5,6 +5,9 @@ import managers.UIElementsManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
+/**
+ * This page class holds methods for the Musical Instruments product
+ */
 public class MusicalInstrumentsPage {
     private WebDriver driver;
 

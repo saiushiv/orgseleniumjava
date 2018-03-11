@@ -5,6 +5,11 @@ import managers.UIElementsManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
+
+/**
+ * This page class holds methods for the site directory page
+ */
+
 public class SiteDirectory {
     private WebDriver driver;
 

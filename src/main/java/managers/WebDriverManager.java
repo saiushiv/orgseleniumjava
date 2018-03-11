@@ -42,7 +42,7 @@ public class WebDriverManager {
 
     /**
      * Public getter method to get the instance of the driver
-     * @return
+     * @return WebDriver
      */
     public static WebDriver getDriver() {
         return driver;

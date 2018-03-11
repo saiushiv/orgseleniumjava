@@ -5,6 +5,9 @@ import managers.UIElementsManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
+/**
+ * This page class holds methods for the Guitar product
+ */
 public class GuitarsPage {
     private WebDriver driver;
 

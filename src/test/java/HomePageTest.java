@@ -3,6 +3,9 @@ import org.junit.Assert;
 import org.junit.Test;
 import pageobject.*;
 
+/**
+ * This Class contains tests for HomePage
+ */
 public class HomePageTest extends BaseTest {
 
     @Test

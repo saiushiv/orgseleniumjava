@@ -3,6 +3,9 @@ import org.junit.Assert;
 import org.junit.Test;
 import pageobject.ElectricGuitarPage;
 
+/**
+ * This class contains all the tests for the Electric Guitar Page
+ */
 public class ElectricGuitarPageTest extends BaseTest{
 
     @Test

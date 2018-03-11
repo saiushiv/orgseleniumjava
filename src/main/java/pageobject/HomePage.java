@@ -5,6 +5,9 @@ import managers.UIElementsManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
+/**
+ * This class holds the methods to manipulate the Amazon.com homepage
+ */
 public class HomePage extends BasePage{
     private WebDriver driver;
 
@@ -21,6 +24,10 @@ public class HomePage extends BasePage{
         }
     }
 
+    /**
+     * This method searches product using the search bar on the home page
+     * @param productName
+     */
     public void searchProduct(String productName){
         try{
             WebElement searchTxtBox = UIElementsManager.getById("twotabsearchtextbox");

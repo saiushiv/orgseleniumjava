@@ -3,6 +3,9 @@ package managers;
 import org.openqa.selenium.WebDriver;
 import pageobject.*;
 
+/**
+ * This class is responsible for creating objects of the respective pages
+ */
 public class PageManager {
     private static WebDriver driver;
     private static HomePage homePage;
