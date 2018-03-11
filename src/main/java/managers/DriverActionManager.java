@@ -91,8 +91,12 @@ public class DriverActionManager{
      * This method commands the driver to close all its instances and quit
      *
      */
-    public static void quit(){
+    public static void quitTest(){
         driver.quit();
+    }
+
+    public static void closeCurrentTestWindow(){
+        driver.close();
     }
 }
 

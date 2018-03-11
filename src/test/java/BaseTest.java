@@ -2,6 +2,7 @@ import managers.DriverActionManager;
 import managers.WebDriverManager;
 import org.junit.After;
 import org.junit.AfterClass;
+import org.junit.Before;
 import org.junit.BeforeClass;
 
 import java.io.File;
@@ -26,6 +27,6 @@ public class BaseTest {
 
     @AfterClass
     public static void stopTest(){
-        DriverActionManager.quit();
+        DriverActionManager.quitTest();
     }
 }
