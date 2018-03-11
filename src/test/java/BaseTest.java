@@ -8,7 +8,7 @@ import org.junit.BeforeClass;
 import java.io.File;
 
 /**
- * This is the Base Test class that contains methods common to all the steps
+ * This is the Base Test class that contains methods common to all the tests
  */
 public class BaseTest {
 

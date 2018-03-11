@@ -17,7 +17,7 @@ public class UIElementsManager {
     /**
      * Access the webelement using its id
      * @param id
-     * @return
+     * @return webelement
      */
     public static WebElement getById(String id){
         WebElement element = null;
@@ -35,7 +35,7 @@ public class UIElementsManager {
     /**
      * Access the webelement using its class
      * @param cl
-     * @return
+     * @return webelement
      */
     public static WebElement getByClass(String cl){
         WebElement element = null;
@@ -52,7 +52,7 @@ public class UIElementsManager {
     /**
      * Access the webelement using its hyper link text
      * @param linkText
-     * @return
+     * @return webelement
      */
     public static WebElement getByLinkText(String linkText){
         WebElement element = null;
@@ -69,7 +69,7 @@ public class UIElementsManager {
     /**
      * Access the webelement using its xpath
      * @param xpath
-     * @return
+     * @return webelement
      */
     public static WebElement getByXpath(String xpath){
         WebElement element = null;

@@ -3,13 +3,13 @@ package pageobject;
 import managers.DriverActionManager;
 
 /**
- * This is bas page class that holds the common methods required by all the pages classes
+ * This is base page class that holds the common methods required by all the pages classes
  */
 public class BasePage {
 
     /**
      * This method gets the title of the webpage
-     * @return
+     * @return String
      */
     public String pageTitle(){
         return DriverActionManager.currentPageTitle();
@@ -18,7 +18,7 @@ public class BasePage {
     /**
      * This method searches the string in the page source of the webpage
      * @param searchText
-     * @return
+     * @return boolean
      */
     public boolean searchPageSource(String searchText){
         if(DriverActionManager.pageSource().contains(searchText)){

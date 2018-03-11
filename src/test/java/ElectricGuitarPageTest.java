@@ -17,4 +17,11 @@ public class ElectricGuitarPageTest extends BaseTest{
         Assert.assertTrue("Element Not Found - Lap & Pedal Steel Guitars",epage.searchPageSource("Lap &amp; Pedal Steel Guitars"));
         Assert.assertTrue("Element Not Found - Solid Body",epage.searchPageSource("Solid Body"));
     }
+
+    @Test
+    public void verifyPageTitle(){
+        ElectricGuitarPage epage = PageManager.getElectricGuitarPage();
+        epage.navigateToElectricGuitarPage();
+        Assert.assertTrue(epage.pageTitle().contains("Electric Guitar"));
+    }
 }
